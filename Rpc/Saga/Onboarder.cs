@@ -36,7 +36,7 @@ public class Onboarder : IRegisterRFuncOnInstantiation
         await _emailService.SendWelcomeEmail(email);
         
         //wait 5 seconds
-        await eventSource.SuspendFor(resumeAt: TimeSpan.FromSeconds(5), timeoutId: "suspension");
+        await eventSource.SuspendFor(resumeAt: TimeSpan.FromSeconds(5), timeoutId: "wait_5_seconds");
         //alternative: await Task.Delay(5_000);
         
         //send followup email
