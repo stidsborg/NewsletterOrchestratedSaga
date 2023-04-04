@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsletterOrchestratedSagaRpc", "Rpc\NewsletterOrchestratedSagaRpc.csproj", "{ACE981CF-462D-47EA-8334-6F9C13E4987D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsletterOrchestratedSagaMessaging", "NewsletterOrchestratedSagaMessaging\NewsletterOrchestratedSagaMessaging.csproj", "{DA4B5114-A5DE-41D2-94B0-BE9254E16845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsletterOrchestratedSagaMessaging", "Messaging\NewsletterOrchestratedSagaMessaging.csproj", "{DA4B5114-A5DE-41D2-94B0-BE9254E16845}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
