@@ -15,7 +15,7 @@ public class Onboarder : IRegisterRFuncOnInstantiation
     {
         _emailService = emailService;
         _registration = rFunctions.RegisterAction<string>(
-            nameof(Onboarder),
+            functionTypeId: "NewsletterOrchestrator_Rpc",
             ExecuteSagaWorkflow
         );
     }

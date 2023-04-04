@@ -15,7 +15,7 @@ public class Onboarder : IRegisterRFuncOnInstantiation
     {
         _bus = bus;
         _registration = rFunctions.RegisterAction<string>(
-            functionTypeId: "NewsletterOrchestrator",
+            functionTypeId: "NewsletterOrchestrator_Messaging",
             ExecuteSagaWorkflow
         );
         
